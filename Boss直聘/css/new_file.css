@@ -1,0 +1,296 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*导航部分*/
+.box1{
+	width: 1170px;
+	height: 100px;
+	margin: 0 auto;
+	
+}
+.nav{
+	width: 100%;
+	height: 100px;
+}
+.nav .boss{
+	width: 60px;
+	height: 55px;
+	border-radius: 5px;
+	background: #53cac4;
+	margin-top: 22px;
+	text-align: center;
+	float: left;
+}
+.nav .boss a{
+	color: white;
+	font-size: 20px;
+}
+.nav ul{
+	width: 1110px;
+	height: 100px;
+	float: left;
+	position: relative;
+	
+}
+.nav ul li{
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 40px;
+	text-align: center;
+}
+.nav ul li:nth-child(1){
+	width: 30px;
+}
+.nav ul li:nth-child(2){
+	width: 30px;
+}
+.nav ul li:nth-child(5){
+	position: absolute;
+	right: 102px;
+	padding-left: 15px;
+	background: url(../img/beijing3.jpg) no-repeat left center;
+}
+.nav ul li:nth-child(6){
+	position: absolute;
+	right: -18px;
+	padding-left: 15px;
+	background: url(../img/beijing4.jpg) no-repeat left center;
+}
+.nav ul li a{
+	color: #5c5c5c;
+	font-size: 12px;
+}
+.nav ul li a:hover{
+	color: #a2e3dd;
+}
+/*广告区*/
+.banner{
+	widows: 100%;
+	height: 395px;
+	text-align: center;
+	overflow: hidden;
+	
+}
+.banner img{
+	margin: 0 -100%;
+}
+/*内容区*/
+.box2{
+	width: 100%;
+	height: 1558px;
+	background: #f3f3f3;
+}
+.content{
+	width: 1172px;
+	height: 1623px;
+	margin: 0 auto;
+	/*position: relative;*/
+	overflow: hidden;
+}
+/*第一部分*/
+.content1{
+	width: 1114px;
+	height: 360px;
+	padding: 30px;
+	background: #ffffff;
+	position: absolute;
+	top: 429px;
+}
+.content1 div{
+	float: left;
+	margin-left: 39px;
+	width: 330px;
+	height: 350px;
+	border-right: 1px solid #ededed;
+	overflow: hidden;
+}
+.content1 .right1{
+	border: none;
+}
+.content .content1 h3{
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	color: #8e8e8e;
+	padding-left: 10px;
+	background: url(../img/beijing1.jpg) no-repeat left center;
+}
+.content1 .a1{
+	display: block;
+	width: 49px;
+	height: 21px;
+	float: right;
+	margin-right: 54px;
+	margin-top: 12px;
+	position: relative;
+}
+.content1 .a1 .more2{
+	display: none;
+	position: absolute;
+	top: -1px;
+	
+}
+.content1 .a1:hover .more2{
+	display: block;
+}
+.content1 .a2{
+	display: block;
+	margin-top: 60px;
+}
+.content1 p{
+	margin-top: 30px;
+}
+.content1 .a3{
+	display: block;
+	margin-top: 10px;
+	color: #a0a0a0;
+	width: 65px;
+}
+.content1 .a3:hover{
+	color: #8bdbd8;
+}
+/*第二部分*/
+.content2{
+	width: 1171px;
+	height: 725px;
+	padding-top: 1px;
+	margin-top: 360px;
+	
+	background: #ffffff;
+}
+.content2 dl{
+	width: 1028px;
+	height: 210px;
+	margin-top: 29px;
+	margin-left: 65px;
+	
+}
+.content2 .dl1 ,.content2 .dl2{
+	border-bottom: 1px solid #666666;
+}
+.content2 dl dt{
+	width: 288px;
+	float: left;
+	
+}
+.content2 dl dd{
+	width: 700px;
+	margin-left: 40px;
+	float: left;
+	
+}
+.content2 dl dd p{
+	margin: 20px 0px; 
+	color: #838383;
+}
+.content2 dl dd .a3{
+	color: #838383;
+	display: block;
+	float: left;
+}
+.content2 dl dd .a3 span{
+	color: #5bcec7;
+}
+.content2 dl dd .a4{
+	display: block;
+	padding-left: 20px;
+	float: left;
+	color: #838383;
+	margin-left: 20px;
+	background: url(../img/beijing2.jpg) no-repeat 5px 6px;
+}
+/*第三部分*/
+.content3{
+	width: 1110px;
+	height: 433px;
+	padding: 1px 30px;
+	margin-top: 10px;
+	background: #ffffff;
+}
+
+.content3 h2{
+	width: 90px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #80d7cf;
+	padding-left: 10px;
+	margin-left: 35px;
+	background: url(../img/beijing1.jpg) no-repeat left center;
+}
+.content3 .left2{
+	float: left;
+	margin-left: 33px;
+}
+.content3 .right2{
+	float: right;
+	margin-right: 30px;
+	margin-top: 18px;
+}
+.content3 dl{
+	width: 650px;
+	height: 90px;
+	margin-top: 17px;
+	border-bottom: 1px dashed #666666;
+}
+.content3 dl dt{
+	width: 152px;
+	float: left;
+}
+.content3 dl dd{
+	width: 480px;
+	float: left;
+	margin-left: 10px;
+	
+}
+.content3 dl dd h3{
+	font-size: 14px;
+	
+}
+.content3 dl dd h3:hover{
+	color: #80d7cf;
+}
+.content3 dl dd p{
+	font-size: 14px;
+	margin-top: 5px;
+	color: #838383;
+}
+
+/*网页尾部*/
+.footer{
+	width: 100%;
+	height: 235px;
+	background: #000000;
+	overflow: hidden;
+}
+.footer .p1{
+	width: 475px;
+	margin-left: 465px;
+	margin-top: 60px;
+}
+.footer .p1 a{
+	color: white;
+	margin-left: 30px;
+	font-size: 18px;
+}
+.footer .p2{
+	width: 650px;
+	color: white;
+	margin-left: 340px;
+	margin-top: 70px;
+	text-align: center;
+	line-height: 32px;
+	
+	font-size: 14px;
+}
