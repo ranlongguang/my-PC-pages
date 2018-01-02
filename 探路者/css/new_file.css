@@ -1,0 +1,352 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+a{
+	text-decoration: none;
+}
+/*网页头部*/
+.header{
+	width: 1260px;
+	height: 130px;
+	background: #e50011;
+	margin: 0 auto;
+}
+.header div:nth-child(1){
+	width: 965px;
+	height: 65px;
+	margin: 0 auto;
+}
+.header div:nth-child(1) img{
+	float: left;
+	margin-top: 10px;
+}
+.header div:nth-child(2){
+	width: 965px;
+	height: 65px;
+	margin: 0 auto;
+}
+.header div:nth-child(1) form {
+	float: left;
+	height: 40px;
+	width: 340px;
+	margin-left: 180px;
+	margin-top: 10px;
+	border: 1px solid white;
+}
+.header div:nth-child(1) form select{
+	width: 85px;
+	height: 40px;
+	border: none;
+	float: left;
+	color: white;
+	background: #e50011;
+}
+.header div:nth-child(1) form input {
+	float: left;
+	height: 40px;
+	border: none;
+}
+
+.header div:nth-child(1) form .input1 {
+	width: 200px;
+	background: #e50011;
+	color: #4c4c4c;
+	padding-left: 15px;
+}
+
+.header div:nth-child(1) form .input2 {
+	width: 40px;
+	background: url(../img/fangdajing.jpg) no-repeat center #e50011;
+}
+.header .p1{
+	padding-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+	width: 250px;
+	float: right;
+}
+.header .p1 a{
+	color: white;
+	border-right: 1px solid white;
+	padding-right: 10px;
+	font-size: 12px;
+}
+.header .p1 .a_8{
+	border: none;
+}
+.header div:nth-child(2) ul{
+	width: 630px;
+	height: 40px;
+	float: left;
+	margin-top: 10px;
+}
+.header div:nth-child(2) ul li{
+	margin-left: 2px;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	margin-top: 15px;
+}
+.header div:nth-child(2) ul li a{
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+}
+.header div:nth-child(2) ul li:hover{
+	background: white;
+}
+.header div:nth-child(2) ul li:hover a{
+	color: red;
+}
+.header div:nth-child(2) img{
+	float: right;
+	margin-top: 35px;
+}
+
+
+/*广告区*/
+.banner{
+	width: 1260px;
+	margin: 0 auto;
+}
+.banner img{
+	display: block;
+}
+.bannersup{
+	width: 1260px;
+	height: 180px;
+	margin: 0 auto;
+}
+.bannersup p{
+	margin: 0 auto;
+	width: 944px;
+	margin-top: 34px;
+	margin-left: 134px;
+}
+.bannersup p a{
+	margin-left: 50px;
+}
+/*内容区*/
+.content1{
+	width: 960px;
+	height: 310px;
+	margin: 0 auto;
+	background: #f5f5f5;
+	padding: 40px 150px;
+}
+.content1 .left1{
+	width: 686px;
+	height: 267px;
+	float: left;
+	padding: 10px;
+	background: white;
+	overflow: hidden;
+}
+.content1 .left1 .r2{
+	height: 40px;
+}
+.content1 .left1 span{
+	float: right;
+}
+.content1 .left1 span a{
+	color: #999999;
+}
+.content1 .left1 h3{
+	float: left;
+}
+.content1 .left1 .r1{
+	width: 686px;
+	height: 210px;
+}
+.content1 .left1 .r1 dl{
+	width: 316px;
+	height: 94px;
+	float: left;
+	
+	margin-top: 10px;
+}
+.content1 .left1 .r1 dl:nth-child(2){
+	margin-left: 45px;
+}
+.content1 .left1 .r1 dl:nth-child(4){
+	margin-left: 45px;
+}
+.content1 .left1 .r1 dl p{
+	font-size: 12px;
+	margin-left: 10px;
+	line-height: 25px;
+	margin-top: 10px;
+}
+.content1 .left1 .r1 dl dd p a{
+	color: black;
+}
+.content1 .left1 .r1 dl dd p:nth-child(2){
+	color: #999999;
+	margin-top: 0px;
+}
+.content1 .left1 .r1 dl dt{
+	float: left;
+	
+}
+.content1 .left1 .r1 dl dd{
+	float: left;
+	background: #f5f5f5;
+}
+.content1 .right1{
+	width: 230px;
+	height: 267px;
+	float: left;
+	padding: 10px;
+	background: white;
+}
+.content1 .right1 h3{
+	width: 100px;
+	float: left;
+	
+}
+.content1 .right1 img{
+	margin-top: 15px;
+}
+.content1 .right1 a{
+	font-size: 12px;
+	color: #333333;
+	margin-top: 10px;
+}
+.content1 .right1 a span{
+	color: red;
+}
+.content1 .right1 h4{
+	font-size: 12px;
+	margin-top: 20px;
+}
+.content1 .right1 p{
+	font-size: 12px;
+	color: #999999;
+	line-height: 20px;
+}
+.content1 .right1 .btn{
+	width: 60px;
+	height: 20px;
+	float: right;
+	margin-top: -10px;
+}
+.content1 .right1 .btn a{
+	color: #999999;
+	border: 1px solid #666666;
+	float: left;
+	padding: 4px 8px;
+}
+.content1 .right1 .btn .a1{
+	border-right: none;
+}
+.content2{
+	width: 1260px;
+	height: 395px;
+	
+}
+.content2 div{
+	width: 307px;
+	height: 285px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 40px;
+	border-right: 1px solid #666666;
+}
+.content2 div:nth-child(2) a{
+	background: #f44358;
+}
+.content2 div:nth-child(1){
+	margin-left: 148px;
+}
+.content2 div:nth-child(3){
+	border: none;
+}
+.content2 div:nth-child(3) a{
+	background: #2ea2de;
+}
+.content2 a{
+	display: block;
+	width: 60px;
+	height: 25px;
+	color: white;
+	background: #2ac180;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 50px;
+}
+.content2 p{
+	font-size: 14px;
+	margin-top: 10px;
+}
+/*网页尾部*/
+footer{
+	width: 1260px;
+	height: 210px;
+	background: red;
+}
+footer div{
+	width: 180px;
+	height: 70px;
+	margin: 0 auto;
+}
+footer div a{
+	display: block;
+	float: left;
+	margin-top: 20px;
+	border-radius: 23px;
+	width: 46px;
+	height: 46px;
+	
+}
+footer div .rr1{
+	background: white url(../img/xinlang.jpg) no-repeat 11px 12px;
+}
+footer div .rr2{
+	background: white url(../img/weixin.jpg) no-repeat 11px 12px;
+	margin-left: 60px;
+}
+footer .p1{
+	padding-bottom: 10px;
+	margin-top: 20px;
+	text-align: center;
+}
+footer .p1 a{
+	color: white;
+	border-right: 1px solid white;
+	padding-right: 10px;
+	font-size: 12px;
+}
+footer .p1 .a_8{
+	border: none;
+}
+footer .p2{
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+	color: white;
+	line-height: 30px;
+}
+.fanhuidingbu{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	top: 800px;
+	right: 20px;
+	text-align: center;
+	line-height: 35px;
+}
+.fanhuidingbu a{
+	width: 50px;
+	height: 50px;
+	display: block;
+	color: #666666;
+	background: white;
+	font-size: 40px;
+	
+}

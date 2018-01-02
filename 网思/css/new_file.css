@@ -1,0 +1,316 @@
+/*网页头部*/
+header{
+	width: 100%;
+	height: 90px;
+}
+header div{
+	width: 1172px;
+	height: 90px;
+	margin: 0 auto;
+}
+header div h1{
+	width: 180px;
+	height: 54px;
+	float: left;
+	margin-top: 18px;
+}
+header div ul{
+	width: 992px;
+	height: 90px;
+	float: left;
+}
+header div ul li{
+	width: 80px;
+	height: 90px;
+	line-height: 90px;
+	margin-left: 30px;
+	text-align: center;
+	float: left;
+}
+header div ul li a{
+	color: black;
+}
+header div ul li:hover{
+	border-bottom: 2px solid red;
+}
+header div ul li:hover a{
+	color: red;
+}
+header div ul li:nth-child(7):hover{
+	border: none;
+}
+header div ul li:nth-child(7){
+	width: 158px;
+	float: right;
+}
+header div ul li:nth-child(7) img{
+	margin-top: 34px;
+}
+/*广告区*/
+.banner{
+	width: 100%;
+	height: 494px;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 2px;
+}
+.banner img{
+	margin: 0 -100%;
+}
+/*内容区*/
+/*内容区第一部分*/
+.box1{
+	width: 100%;
+	height: 525px;
+}
+.box1 .content1{
+	width: 1172px;
+	height: 525px;
+	margin: 0 auto;
+	
+}
+.box1 .content1 h3{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 30px;
+}
+.box1 .content1 .p1{
+	text-align: center;
+	margin-top: 10px;
+	color: #cacace;
+}
+.box1 .content1 .p1 span{
+	color: red;
+}
+.box1 .content1 .r1{
+	width: 218px;
+	height: 374px;
+	float: left;
+	margin-left: 57px;
+	margin-top: 70px;
+	color: #333333;
+	font-size: 12px;
+}
+.box1 .content1 .r1 .l1{
+	width: 135px;
+	height: 136px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.box1 .content1 .r1 .p2{
+	margin-top: 20px;
+}
+.box1 .content1 .r1 h5{
+	margin: 20px auto;
+	text-align: center;
+	color: #333333;
+	
+}
+.box2{
+	width: 100%;
+	height: 620px;
+}
+.box2 .content2{
+	width: 1172px;
+	height: 620px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.box2 .content2 h3{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 30px;
+}
+.box2 .content2 .p3{
+	text-align: center;
+	margin-top: 10px;
+	color: #cacace;
+}
+.box2 .content2 .p3 span{
+	color: red;
+}
+.box2 .content2 .r2{
+	width: 1172px;
+	height: 430px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 35px;
+	
+}
+.box2 .content2 .r2 div{
+	width: 280px;
+	height: 200px;
+	float: left;
+	margin: 6px;
+}
+.box2 .content2 .rrr{
+	width: 40px;
+	height: 40px;
+	background: #000014;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	margin: 0px auto;
+	
+}
+.box2 .content2 .rrr a{
+	color: white;
+}
+.box3{
+	width: 100%;
+	height: 676px;
+	text-align: center;
+	overflow: hidden;
+	margin-top: 20px;
+}
+.box3 img{
+	margin: 0 -100%;
+}
+.box4{
+	width: 100%;
+	height: 515px;
+	
+}
+.box4 .content4{
+	width: 1172px;
+	height: 620px;
+	margin: 0 auto;
+	
+}
+.box4 .content4 h3{
+	text-align: center;
+	margin-top: 40px;
+	font-size: 30px;
+}
+.box4 .content4 .p1{
+	text-align: center;
+	margin-top: 10px;
+	color: #cacace;
+}
+.box4 .content4 .p1 span{
+	color: red;
+}
+.box4 .content4 .hhh .left{
+	width: 375px;
+	height: 230px;
+	float: left;
+	margin-top: 50px;
+	
+}
+.box4 .content4 .hhh dl{
+	overflow: hidden;
+	margin-top: 50px;
+}
+.box4 .content4 .hhh dl dt{
+	float: left;
+}
+.box4 .content4 .hhh dl dd{
+	float: left;
+	margin-left: 30px;
+	
+}
+.box4 .content4 .hhh dl dd p{
+	line-height: 30px;
+}
+.box4 .content4 .hhh .right{
+	width: 730px;
+	height: 230px;
+	
+	float: right;
+	margin-top: 50px;
+}
+.box4 .content4 .hhh .right input{
+	width: 338px;
+	height: 35px;
+	padding-left: 10px;
+}
+.box4 .content4 .hhh .right input:nth-child(2){
+	margin-left: 20px;
+}
+.box4 .content4 .hhh .right input:nth-child(4){
+	width: 730px;
+	background: #63637f;
+	color: #f5ffeb;
+	margin-top: 20px;
+}
+.box4 .content4 .hhh .right textarea{
+	margin-top: 20px;
+}
+.box5{
+	width: 100%;
+	height: 122px;
+	text-align: center;
+	overflow: hidden;
+}
+.box5 img{
+	margin: 0 -100%;
+}
+.box6{
+	width: 100%;
+	height: 250px;
+	background: #191938;
+}
+.box6 .links{
+	width: 1172px;
+	height: 250px;
+	margin: 0 auto;
+	
+}
+.box6 .links .rrll{
+	width: 160px;
+	height: 200px;
+	margin-top: 20px;
+	float: left;
+	
+}
+.box6 .links .rrll .p5{
+	font-size: 25px;
+	color: white;
+	margin-top: 20px;
+}
+.box6 .links .rrll .p6{
+	font-size: 20px;
+	color: #a8a8af;
+}
+.box6 .links .rrll img{
+	margin-top: 20px;
+}
+.box6 .links .rrll:nth-child(2){
+	margin-left: 60px;
+}
+.box6 .links .rrll:nth-child(3){
+	margin-left: 60px;
+}
+.box6 .links .rrll:nth-child(4){
+	margin-left: 60px;
+}
+.box6 .links .rrll:nth-child(5){
+	margin-left: 100px;
+	width: 200px;
+}
+.box6 .links .rrll h4{
+	color: white;
+}
+.box6 .links .rrll ul{
+	margin-top: 40px;
+}
+.box6 .links .rrll ul li{
+	
+}
+.box6 .links .rrll ul li a{
+	color: #a8a8a3;
+	font-size: 12px;
+}
+footer{
+	width: 100%;
+	height: 40px;
+	background: #000022;
+}
+footer p{
+	width: 1172px;
+	height: 40px;
+	line-height: 40px;
+	color: white;
+	margin: 0 auto;
+	font-size: 12px;
+}
